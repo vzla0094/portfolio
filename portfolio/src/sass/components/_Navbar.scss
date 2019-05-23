@@ -9,7 +9,7 @@
     &__link {
       text-decoration: unset;
       color: $color-text;
-      font-family: $font-title;
+      font-family: $font-main;
       line-height: normal;
       &__name {
         font-size: 18px;
@@ -42,7 +42,7 @@
       margin-right: 1rem;
       color: unset;
       text-decoration: unset;
-      font-family: $font-title;
+      font-family: $font-main;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;

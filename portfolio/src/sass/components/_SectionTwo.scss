@@ -1,0 +1,26 @@
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    font-family: $font-main;
+    color: $color-text;
+    font-weight: 400;
+  }
+  &__boxes {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: 200px;
+    grid-column-gap: 2%;
+    &__one {
+      background: grey;
+    }
+    &__two {
+      background: grey;
+    }
+    &__three {
+      background: grey;
+    }
+  }
+}
