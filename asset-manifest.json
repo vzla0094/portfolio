@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vzla0094/Portfolio/portfolio/static/css/main.fecb5c28.chunk.css",
-    "main.js": "/vzla0094/Portfolio/portfolio/static/js/main.44870300.chunk.js",
-    "main.js.map": "/vzla0094/Portfolio/portfolio/static/js/main.44870300.chunk.js.map",
-    "runtime~main.js": "/vzla0094/Portfolio/portfolio/static/js/runtime~main.9bbbbe0f.js",
-    "runtime~main.js.map": "/vzla0094/Portfolio/portfolio/static/js/runtime~main.9bbbbe0f.js.map",
-    "static/js/2.2d09f95c.chunk.js": "/vzla0094/Portfolio/portfolio/static/js/2.2d09f95c.chunk.js",
-    "static/js/2.2d09f95c.chunk.js.map": "/vzla0094/Portfolio/portfolio/static/js/2.2d09f95c.chunk.js.map",
-    "index.html": "/vzla0094/Portfolio/portfolio/index.html",
-    "precache-manifest.a31d9f9ec1ace32d5a118c88b6d30d10.js": "/vzla0094/Portfolio/portfolio/precache-manifest.a31d9f9ec1ace32d5a118c88b6d30d10.js",
-    "service-worker.js": "/vzla0094/Portfolio/portfolio/service-worker.js",
-    "static/css/main.fecb5c28.chunk.css.map": "/vzla0094/Portfolio/portfolio/static/css/main.fecb5c28.chunk.css.map",
-    "static/media/pic.jpg": "/vzla0094/Portfolio/portfolio/static/media/pic.99b20e34.jpg",
-    "static/media/index.css": "/vzla0094/Portfolio/portfolio/static/media/talent-trade.ef125361.jpg"
+    "main.css": "/Portfolio/static/css/main.95af927e.chunk.css",
+    "main.js": "/Portfolio/static/js/main.73e0d15d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.73e0d15d.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/js/2.2d09f95c.chunk.js": "/Portfolio/static/js/2.2d09f95c.chunk.js",
+    "static/js/2.2d09f95c.chunk.js.map": "/Portfolio/static/js/2.2d09f95c.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.9aba1251a5ff22a1a76e89e321e91faa.js": "/Portfolio/precache-manifest.9aba1251a5ff22a1a76e89e321e91faa.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.95af927e.chunk.css.map": "/Portfolio/static/css/main.95af927e.chunk.css.map",
+    "static/media/pic.jpg": "/Portfolio/static/media/pic.99b20e34.jpg",
+    "static/media/index.css": "/Portfolio/static/media/talent-trade.ef125361.jpg"
   }
 }
