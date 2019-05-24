@@ -1,0 +1,15 @@
+.sectionFour {
+  margin: 70px 0;
+  &__title {
+    font-family: $font-main;
+    color: $color-text;
+    text-align: center;
+    font-weight: 400;
+  }
+  &__text {
+    margin-top: 10px;
+    font-family: $font-main;
+    color: $color-text;
+    text-align: center;
+  }
+}

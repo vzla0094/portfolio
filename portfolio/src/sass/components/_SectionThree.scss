@@ -1,51 +1,23 @@
 .sectionThree {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  &__boxes {
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-column-gap: 2%;
-    &__loQueHago {
-      &__title {
-        font-family: $font-main;
-        color: $color-text;
-        font-weight: 400;
-        text-align: center;
-      }
-      &__box {
-        background: grey;
-        height: 200px;
-      }
+  padding: 0 10%;
+  &__acercaDeMi {
+    &__title {
+      font-family: $font-main;
+      color: $color-text;
+      font-weight: 400;
+      text-align: center;
     }
-    &__miMision {
-      &__title {
-        font-family: $font-main;
-        color: $color-text;
-        font-weight: 400;
-        text-align: center;
-      }
-      &__box {
-        background: grey;
-        height: 200px;
-      }
-    }
-    &__acercaDeMi {
-      &__title {
-        font-family: $font-main;
-        color: $color-text;
-        font-weight: 400;
-        text-align: center;
-      }
-      &__box {
-        font-family: $font-main;
-        color: $color-text;
-        border: grey solid 1px;
-        border-radius: 5px;
-        padding: 20px;
-        text-align: justify;
-      }
+    &__box {
+      font-family: $font-main;
+      color: $color-text;
+      border: grey solid 1px;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: justify;
     }
   }
 }

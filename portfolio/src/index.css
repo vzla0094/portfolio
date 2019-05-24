@@ -155,39 +155,33 @@
           height: 100%; }
 
 .sectionThree {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
-  align-items: center; }
-  .sectionThree__boxes {
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-column-gap: 2%; }
-    .sectionThree__boxes__loQueHago__title {
-      font-family: "Raleway", sans-serif;
-      color: #434543;
-      font-weight: 400;
-      text-align: center; }
-    .sectionThree__boxes__loQueHago__box {
-      background: grey;
-      height: 200px; }
-    .sectionThree__boxes__miMision__title {
-      font-family: "Raleway", sans-serif;
-      color: #434543;
-      font-weight: 400;
-      text-align: center; }
-    .sectionThree__boxes__miMision__box {
-      background: grey;
-      height: 200px; }
-    .sectionThree__boxes__acercaDeMi__title {
-      font-family: "Raleway", sans-serif;
-      color: #434543;
-      font-weight: 400;
-      text-align: center; }
-    .sectionThree__boxes__acercaDeMi__box {
-      font-family: "Raleway", sans-serif;
-      color: #434543;
-      border: grey solid 1px;
-      border-radius: 5px;
-      padding: 20px;
-      text-align: justify; }
+  align-items: center;
+  padding: 0 10%; }
+  .sectionThree__acercaDeMi__title {
+    font-family: "Raleway", sans-serif;
+    color: #434543;
+    font-weight: 400;
+    text-align: center; }
+  .sectionThree__acercaDeMi__box {
+    font-family: "Raleway", sans-serif;
+    color: #434543;
+    border: grey solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: justify; }
+
+.sectionFour {
+  margin: 70px 0; }
+  .sectionFour__title {
+    font-family: "Raleway", sans-serif;
+    color: #434543;
+    text-align: center;
+    font-weight: 400; }
+  .sectionFour__text {
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #434543;
+    text-align: center; }

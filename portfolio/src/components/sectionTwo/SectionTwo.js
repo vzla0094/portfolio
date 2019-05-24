@@ -5,7 +5,7 @@ class SectionTwo extends Component {
     return (
       <div className="sectionTwo">
         <h2 className="sectionTwo__title">
-          Echa un vistazo a algunos de mis proyectos:
+          Eche un vistazo a algunos de mis proyectos:
         </h2>
         <div className="sectionTwo__boxes">
           <div className="sectionTwo__boxes__highlight">
