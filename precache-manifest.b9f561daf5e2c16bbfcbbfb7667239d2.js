@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2cd25be8fb709c767e173d674e15370",
+    "revision": "3428dd0ff2f1c324de3f2f229afc6cc6",
     "url": "/vzla0094/Portfolio/index.html"
   },
   {
-    "revision": "5165b1da38aed4bb9f2c",
-    "url": "/vzla0094/Portfolio/static/css/main.fd5ccade.chunk.css"
+    "revision": "9b23c68eb29762967624",
+    "url": "/vzla0094/Portfolio/static/css/main.39e933d6.chunk.css"
   },
   {
-    "revision": "ce9813084b34ed08ce62",
-    "url": "/vzla0094/Portfolio/static/js/2.df8eefd3.chunk.js"
+    "revision": "a4b50250cde6176ae265",
+    "url": "/vzla0094/Portfolio/static/js/2.2d09f95c.chunk.js"
   },
   {
-    "revision": "5165b1da38aed4bb9f2c",
-    "url": "/vzla0094/Portfolio/static/js/main.c5aff9b9.chunk.js"
+    "revision": "9b23c68eb29762967624",
+    "url": "/vzla0094/Portfolio/static/js/main.2d7926c6.chunk.js"
   },
   {
     "revision": "00317d2ef55d90571628",
     "url": "/vzla0094/Portfolio/static/js/runtime~main.b6af7eac.js"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/vzla0094/Portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "99b20e3409c3a0e6bb711fff2823da81",
