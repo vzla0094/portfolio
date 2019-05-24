@@ -46,7 +46,11 @@ class Navbar extends Component {
                 </button>
               </li>
               <li className="listedItems__item">
-                <a to="/home" className="listedItems__item__link" href="#">
+                <a
+                  to="/home"
+                  className="listedItems__item__link"
+                  href="#sectionOne"
+                >
                   Inicio
                 </a>
               </li>
@@ -54,13 +58,17 @@ class Navbar extends Component {
                 <a
                   to="/teachersearch"
                   className="listedItems__item__link"
-                  href="#"
+                  href="#sectionTwo"
                 >
                   Portafolio
                 </a>
               </li>
               <li className="listedItems__item">
-                <a to="/search" className="listedItems__item__link" href="#">
+                <a
+                  to="/search"
+                  className="listedItems__item__link"
+                  href="#sectionThree"
+                >
                   Acerca de mi
                 </a>
               </li>

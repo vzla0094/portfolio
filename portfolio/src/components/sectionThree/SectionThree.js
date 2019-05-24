@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import arrow from "../../img/scroll.png";
 class SectionThree extends Component {
   state = {};
   render() {
     return (
-      <div className="sectionThree">
+      <div className="sectionThree" id="sectionThree">
         <div className="sectionThree__acercaDeMi">
           <h2 className="sectionThree__acercaDeMi__title">Acerca de mi:</h2>
           <div className="sectionThree__acercaDeMi__box">
@@ -25,6 +26,9 @@ class SectionThree extends Component {
             </p>
           </div>
         </div>
+        <a className="sectionThree__arrow" href="#sectionFour">
+          <img src={arrow} width="50" height="50" />
+        </a>
       </div>
     );
   }

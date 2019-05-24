@@ -3,13 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 0 10%;
+  height: 100vh;
   &__acercaDeMi {
     &__title {
       font-family: $font-main;
       color: $color-text;
       font-weight: 400;
       text-align: center;
+      margin-top: -50px;
+      margin-bottom: 50px;
     }
     &__box {
       font-family: $font-main;
@@ -19,5 +23,9 @@
       padding: 20px;
       text-align: justify;
     }
+  }
+  &__arrow {
+    margin-bottom: -10%;
+    margin-top: 10%;
   }
 }

@@ -3,7 +3,7 @@ class SectionTwo extends Component {
   state = {};
   render() {
     return (
-      <div className="sectionTwo">
+      <div className="sectionTwo" id="sectionTwo">
         <h2 className="sectionTwo__title">
           Eche un vistazo a algunos de mis proyectos:
         </h2>

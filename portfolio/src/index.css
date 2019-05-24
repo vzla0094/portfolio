@@ -83,7 +83,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10vh; }
+  justify-content: center;
+  padding: 0 10vh;
+  height: 90vh; }
   .sectionOne__title {
     font-size: 72px;
     text-align: center;
@@ -101,17 +103,22 @@
       font-family: "Raleway", sans-serif;
       color: #434543;
       font-weight: 400; }
+  .sectionOne__arrow {
+    margin-bottom: -10%;
+    margin-top: 10%; }
 
 .sectionTwo {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-top: 70px; }
   .sectionTwo__title {
     font-family: "Raleway", sans-serif;
     color: #434543;
     font-weight: 400; }
   .sectionTwo__boxes {
-    margin-top: 70px; }
+    margin-top: 70px;
+    width: 70%; }
     .sectionTwo__boxes__highlight {
       display: flex;
       height: 300px;
@@ -124,7 +131,7 @@
           display: block;
           height: 100%; }
       .sectionTwo__boxes__highlight__two {
-        background: url("./img/rock-paper-scissors.jpg") no-repeat;
+        background: url("./img/rock-paper-scissors.jpg") no-repeat center;
         background-size: 100%;
         width: 48%; }
         .sectionTwo__boxes__highlight__two a {
@@ -133,11 +140,12 @@
     .sectionTwo__boxes__normal {
       margin-top: 2%;
       display: grid;
-      grid-template-columns: repeat(3, 300px);
+      grid-template-columns: repeat(3, 1fr);
       grid-auto-rows: 400px;
       grid-column-gap: 2%; }
       .sectionTwo__boxes__normal__one {
-        background: url("./img/talent-trade-mobile.png"); }
+        background: url("./img/talent-trade-mobile.png") no-repeat center;
+        background-size: 100%; }
         .sectionTwo__boxes__normal__one a {
           display: block;
           height: 100%; }
@@ -159,12 +167,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10%; }
+  justify-content: center;
+  padding: 0 10%;
+  height: 100vh; }
   .sectionThree__acercaDeMi__title {
     font-family: "Raleway", sans-serif;
     color: #434543;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px; }
   .sectionThree__acercaDeMi__box {
     font-family: "Raleway", sans-serif;
     color: #434543;
@@ -172,16 +184,27 @@
     border-radius: 5px;
     padding: 20px;
     text-align: justify; }
+  .sectionThree__arrow {
+    margin-bottom: -10%;
+    margin-top: 10%; }
 
 .sectionFour {
-  margin: 70px 0; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
   .sectionFour__title {
     font-family: "Raleway", sans-serif;
     color: #434543;
-    text-align: center;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-top: -100px;
+    margin-bottom: 100px; }
+  .sectionFour__icons {
+    margin-bottom: 70px; }
+    .sectionFour__icons a {
+      margin: 0 10px; }
   .sectionFour__text {
     margin-top: 10px;
     font-family: "Raleway", sans-serif;
-    color: #434543;
-    text-align: center; }
+    color: #434543; }
