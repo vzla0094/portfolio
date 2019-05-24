@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vzla0094/Portfolio/static/css/main.39e933d6.chunk.css",
-    "main.js": "/vzla0094/Portfolio/static/js/main.2d7926c6.chunk.js",
-    "main.js.map": "/vzla0094/Portfolio/static/js/main.2d7926c6.chunk.js.map",
-    "runtime~main.js": "/vzla0094/Portfolio/static/js/runtime~main.b6af7eac.js",
-    "runtime~main.js.map": "/vzla0094/Portfolio/static/js/runtime~main.b6af7eac.js.map",
-    "static/js/2.2d09f95c.chunk.js": "/vzla0094/Portfolio/static/js/2.2d09f95c.chunk.js",
-    "static/js/2.2d09f95c.chunk.js.map": "/vzla0094/Portfolio/static/js/2.2d09f95c.chunk.js.map",
-    "index.html": "/vzla0094/Portfolio/index.html",
-    "precache-manifest.b9f561daf5e2c16bbfcbbfb7667239d2.js": "/vzla0094/Portfolio/precache-manifest.b9f561daf5e2c16bbfcbbfb7667239d2.js",
-    "service-worker.js": "/vzla0094/Portfolio/service-worker.js",
-    "static/css/main.39e933d6.chunk.css.map": "/vzla0094/Portfolio/static/css/main.39e933d6.chunk.css.map",
-    "static/media/pic.jpg": "/vzla0094/Portfolio/static/media/pic.99b20e34.jpg",
-    "static/media/index.css": "/vzla0094/Portfolio/static/media/talent-trade.ef125361.jpg"
+    "main.css": "/vzla0094/Portfolio/portfolio/static/css/main.fecb5c28.chunk.css",
+    "main.js": "/vzla0094/Portfolio/portfolio/static/js/main.44870300.chunk.js",
+    "main.js.map": "/vzla0094/Portfolio/portfolio/static/js/main.44870300.chunk.js.map",
+    "runtime~main.js": "/vzla0094/Portfolio/portfolio/static/js/runtime~main.9bbbbe0f.js",
+    "runtime~main.js.map": "/vzla0094/Portfolio/portfolio/static/js/runtime~main.9bbbbe0f.js.map",
+    "static/js/2.2d09f95c.chunk.js": "/vzla0094/Portfolio/portfolio/static/js/2.2d09f95c.chunk.js",
+    "static/js/2.2d09f95c.chunk.js.map": "/vzla0094/Portfolio/portfolio/static/js/2.2d09f95c.chunk.js.map",
+    "index.html": "/vzla0094/Portfolio/portfolio/index.html",
+    "precache-manifest.a31d9f9ec1ace32d5a118c88b6d30d10.js": "/vzla0094/Portfolio/portfolio/precache-manifest.a31d9f9ec1ace32d5a118c88b6d30d10.js",
+    "service-worker.js": "/vzla0094/Portfolio/portfolio/service-worker.js",
+    "static/css/main.fecb5c28.chunk.css.map": "/vzla0094/Portfolio/portfolio/static/css/main.fecb5c28.chunk.css.map",
+    "static/media/pic.jpg": "/vzla0094/Portfolio/portfolio/static/media/pic.99b20e34.jpg",
+    "static/media/index.css": "/vzla0094/Portfolio/portfolio/static/media/talent-trade.ef125361.jpg"
   }
 }
