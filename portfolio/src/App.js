@@ -1,20 +1,10 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Navbar from "./components/navbar/Navbar";
-import SectionOne from "./components/sectionOne/SectionOne";
-import SectionTwo from "./components/sectionTwo/SectionTwo";
-import SectionThree from "./components/sectionThree/SectionThree";
-import SectionFour from "./components/sectionFour/SectionFour";
+import React, { Component } from "react";
+import Index from "./components/utils/routes";
 
 function App() {
   return (
-    <div className="mainContainer">
-      <Navbar />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFour />
+    <div className="App">
+      <Index />
     </div>
   );
 }
