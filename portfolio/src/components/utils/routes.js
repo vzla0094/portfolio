@@ -13,8 +13,8 @@ class Index extends Component {
       <Router>
         <div>
           <Switch>
-            <Redirect exact from="/" to="/home" />
-            <Route exact path="/home" component={Main} />
+            <Redirect exact from="/" to="/portfolio" />
+            <Route exact path="/portfolio" component={Main} />
           </Switch>
         </div>
       </Router>
