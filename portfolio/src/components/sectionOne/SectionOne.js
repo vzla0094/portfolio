@@ -13,6 +13,7 @@ class SectionOne extends Component {
             height="150"
             width="150"
             className="sectionOne__presentation__img"
+            alt="Eliezer Valenzuela"
           />
           <h2 className="sectionOne__presentation__text">
             Soy Eliezer, desarrollador web. He trabajado con HTML, CSS,
@@ -21,7 +22,7 @@ class SectionOne extends Component {
           </h2>
         </div>
         <a className="sectionOne__arrow" href="#sectionTwo">
-          <img src={arrow} width="50" height="50" />
+          <img src={arrow} width="50" height="50" alt="arrow" />
         </a>
       </div>
     );

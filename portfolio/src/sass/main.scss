@@ -6,3 +6,9 @@
 @import "./components/SectionTwo";
 @import "./components/SectionThree";
 @import "./components/SectionFour";
+
+//resets
+hr,
+p {
+  margin: 0;
+}

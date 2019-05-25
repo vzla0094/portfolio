@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-class Navbar extends Component {
+class NavigationBar extends Component {
   state = {};
   render() {
     const handleDropdown = () => {
-      const navbar = document.querySelector(".navbar");
-      navbar.classList.toggle("navbar--responsive");
+      const navigationBar = document.querySelector(".navigationBar");
+      navigationBar.classList.toggle("navigationBar--responsive");
 
       const listedItems = document.querySelector(".listedItems");
       listedItems.classList.toggle("listedItems--responsive");
@@ -26,16 +26,22 @@ class Navbar extends Component {
 
     return (
       <>
-        <nav className="navbar">
-          <div className="navbar__logo">
-            <a to="/dashboard" className="navbar__logo__link" href="#">
-              <p className="navbar__logo__link__name">Eliezer Valenzuela</p>
-              <p className="navbar__logo__link__profession">
+        <nav className="navigationBar">
+          <div className="navigationBar__logo">
+            <a
+              to="/dashboard"
+              className="navigationBar__logo__link"
+              href="#sectionOne"
+            >
+              <p className="navigationBar__logo__link__name">
+                Eliezer Valenzuela
+              </p>
+              <p className="navigationBar__logo__link__profession">
                 Desarrollador Web
               </p>
             </a>
           </div>
-          <div className="navbar__collapse--items">
+          <div className="navigationBar__collapse--items">
             <ul className="listedItems">
               <li className="listedItems__item">
                 <button
@@ -81,4 +87,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavigationBar;

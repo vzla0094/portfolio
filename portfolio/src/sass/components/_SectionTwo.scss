@@ -13,15 +13,12 @@
     width: 70%;
     &__highlight {
       display: flex;
-      height: 300px;
+      // height: 300px;
       justify-content: space-around;
-      &__one {
-        background: url("./img/talent-trade.jpg") no-repeat center;
-        background-size: 100%;
+      &__cover {
         width: 48%;
-        a {
-          display: block;
-          height: 100%;
+        &__img {
+          width: 100%;
         }
       }
       &__two {

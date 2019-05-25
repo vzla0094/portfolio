@@ -11,6 +11,7 @@ class SectionFour extends Component {
           <a
             href="https://www.linkedin.com/in/eliezervalenzuela/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={linkedin} width="70" height="70" />
           </a>
