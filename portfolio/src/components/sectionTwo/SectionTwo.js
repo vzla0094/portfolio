@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import talentTrade from "../../img/talent-trade.jpg";
-import rockPaperScissors from "../../img/rock-paper-scissors.jpg";
 class SectionTwo extends Component {
   state = {};
   render() {
@@ -11,60 +9,146 @@ class SectionTwo extends Component {
           Eche un vistazo a algunos de mis proyectos:
         </h2>
         <div className="sectionTwo__boxes">
-          <div className="sectionTwo__boxes__highlight">
-            <MDBView
-              hover
-              zoom
-              className="sectionTwo__boxes__highlight__talentTrade z-depth-1-half"
-            >
-              <MDBMask overlay="black-light" className="flex-center">
-                <p className="sectionTwo__boxes__highlight__maskText">
-                  Tecnologías usadas: <br />
-                  React, Sass, React-Router
+          <MDBContainer>
+            <MDBRow>
+              <MDBCol xl="6" className="mb-4">
+                <MDBView
+                  hover
+                  zoom
+                  className="sectionTwo__boxes__talentTrade z-depth-1-half mb-2"
+                >
+                  <MDBMask
+                    overlay="black-strong"
+                    className="flex-center flex-column"
+                  >
+                    <p className="sectionTwo__boxes__maskText">
+                      Tecnologías usadas: <br />
+                      React, Sass, React-Router
+                    </p>
+                    <a
+                      href="https://github.com/chingu-voyages/v8-geckos-team-05"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h2>Ver código</h2>
+                    </a>
+                  </MDBMask>
+                </MDBView>
+                <p className="text-center">
+                  Bosquejo de aplicación front-end que permite a usuarios
+                  conectarse, para aprender o enseñar habilidades
                 </p>
-              </MDBMask>
-            </MDBView>
-            <MDBView
-              hover
-              zoom
-              className="sectionTwo__boxes__highlight__rockPaperScissors z-depth-1-half"
-            >
-              {/* <img
-                src={rockPaperScissors}
-                className="sectionTwo__boxes__highlight__cover__img"
-                alt="rock-paper-scissors"
-              /> */}
-              <MDBMask overlay="black-light" className="flex-center">
-                <p className="sectionTwo__boxes__highlight__maskText">
-                  Tecnologías usadas: <br />
-                  CSS, Javascript
+              </MDBCol>
+              <MDBCol xl="6" className="mb-4">
+                <MDBView
+                  hover
+                  zoom
+                  className="sectionTwo__boxes__rockPaperScissors z-depth-1-half mb-2"
+                >
+                  <MDBMask
+                    overlay="black-strong"
+                    className="flex-center flex-column"
+                  >
+                    <p className="sectionTwo__boxes__maskText">
+                      Tecnologías usadas: <br />
+                      CSS, Javascript
+                    </p>
+                    <a
+                      href="https://github.com/vzla0094/rock_paper_scissors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h2>Ver código</h2>
+                    </a>
+                  </MDBMask>
+                </MDBView>
+                <p className="text-center">Juego de Piedra, Papel o Tijeras!</p>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow>
+              <MDBCol sm="4">
+                <MDBView
+                  hover
+                  zoom
+                  className="sectionTwo__boxes__talentTradeMobile z-depth-1-half mb-2"
+                >
+                  <MDBMask
+                    overlay="black-strong"
+                    className="flex-center flex-column"
+                  >
+                    <p className="sectionTwo__boxes__maskText">
+                      Tecnologías usadas: <br />
+                      CSS, Javascript
+                    </p>
+                    <a
+                      href="https://github.com/chingu-voyages/v8-geckos-team-05"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h2>Ver código</h2>
+                    </a>
+                  </MDBMask>
+                </MDBView>
+                <p className="text-center">
+                  Bosquejo de aplicación front-end que permite a usuarios
+                  conectarse, para aprender o enseñar habilidades (vista móvil)
                 </p>
-              </MDBMask>
-            </MDBView>
-          </div>
-          <div className="sectionTwo__boxes__normal">
-            <div className="sectionTwo__boxes__normal__one">
-              <a
-                href="https://talent-trade.netlify.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            </div>
-            <div className="sectionTwo__boxes__normal__two">
-              <a
-                href="https://vzla0094.github.io/Promedio-alumnos/"
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            </div>
-            <div className="sectionTwo__boxes__normal__three">
-              <a
-                href="https://vzla0094.github.io/calculator/"
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            </div>
-          </div>
+              </MDBCol>
+              <MDBCol sm="4">
+                <MDBView
+                  hover
+                  zoom
+                  className="sectionTwo__boxes__promedio z-depth-1-half mb-2"
+                >
+                  <MDBMask
+                    overlay="black-light"
+                    className="flex-center flex-column"
+                  >
+                    <p className="sectionTwo__boxes__maskText">
+                      Tecnologías usadas: <br />
+                      CSS, Javascript
+                    </p>
+                    <a
+                      href="https://github.com/vzla0094/Promedio-alumnos"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h2>Ver código</h2>
+                    </a>
+                  </MDBMask>
+                </MDBView>
+                <p className="text-center">
+                  Simple aplicación que registra calificaciones de alumnos y
+                  permite consultar el promedio (solo front-end)
+                </p>
+              </MDBCol>
+              <MDBCol sm="4">
+                <MDBView
+                  hover
+                  zoom
+                  className="sectionTwo__boxes__calculator z-depth-1-half mb-2"
+                >
+                  <MDBMask
+                    overlay="black-light"
+                    className="flex-center flex-column"
+                  >
+                    <p className="sectionTwo__boxes__maskText">
+                      Tecnologías usadas: <br />
+                      CSS, Javascript
+                    </p>
+                    <a
+                      href="https://github.com/vzla0094/calculator"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h2>Ver código</h2>
+                    </a>
+                  </MDBMask>
+                </MDBView>
+                <p className="text-center">Calculadora (solo front-end)</p>
+              </MDBCol>
+            </MDBRow>
+          </MDBContainer>
         </div>
       </div>
     );

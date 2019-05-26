@@ -13,10 +13,14 @@ class SectionFour extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedin} width="70" height="70" />
+            <img src={linkedin} width="70" height="70" alt="linkedin-logo" />
           </a>
-          <a href="https://github.com/vzla0094" target="_blank">
-            <img src={github} width="70" height="70" />
+          <a
+            href="https://github.com/vzla0094"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={github} width="70" height="70" alt="github-logo" />
           </a>
         </div>
         <p className="sectionFour__text">6311054619</p>

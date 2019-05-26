@@ -119,25 +119,36 @@
   .sectionTwo__boxes {
     margin-top: 70px;
     width: 70%; }
-    .sectionTwo__boxes__highlight {
-      display: flex;
-      justify-content: space-around; }
-      .sectionTwo__boxes__highlight__talentTrade {
-        width: 48%;
-        height: 25vw;
-        background: url("./img/talent-trade.jpg") no-repeat center;
-        background-size: contain;
-        object-fit: cover; }
-      .sectionTwo__boxes__highlight__rockPaperScissors {
-        width: 48%;
-        height: 25vw;
-        background: url("./img/rock-paper-scissors.jpg") no-repeat center;
-        background-size: contain;
-        object-fit: cover; }
-      .sectionTwo__boxes__highlight__maskText {
-        color: white;
-        text-align: center;
-        font-weight: 500; }
+    .sectionTwo__boxes__talentTrade {
+      height: 25vw;
+      background: url("./img/talent-trade.jpg") no-repeat center;
+      background-size: contain;
+      object-fit: cover; }
+    .sectionTwo__boxes__rockPaperScissors {
+      height: 25vw;
+      background: url("./img/rock-paper-scissors.jpg") no-repeat center;
+      background-size: contain;
+      object-fit: cover; }
+    .sectionTwo__boxes__talentTradeMobile {
+      height: 25vw;
+      background: url("./img/talent-trade-mobile.png") no-repeat center;
+      background-size: contain;
+      object-fit: cover; }
+    .sectionTwo__boxes__promedio {
+      height: 25vw;
+      background: url("./img/promedio.png") no-repeat center;
+      background-size: contain;
+      object-fit: cover; }
+    .sectionTwo__boxes__calculator {
+      height: 25vw;
+      background: url("./img/calculator.png") no-repeat center;
+      background-size: contain;
+      object-fit: cover; }
+    .sectionTwo__boxes__maskText {
+      color: white;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 20px !important; }
     .sectionTwo__boxes__normal {
       margin-top: 2%;
       display: grid;
