@@ -7,36 +7,37 @@
     font-family: $font-main;
     color: $color-text;
     font-weight: 400;
+    text-align: center;
+    padding: 0 10vw;
   }
   &__boxes {
     margin-top: 70px;
-    width: 70%;
     &__talentTrade {
-      height: 25vw;
+      height: 50vh;
       background: url("./img/talent-trade.jpg") no-repeat center;
       background-size: contain;
       object-fit: cover;
     }
     &__rockPaperScissors {
-      height: 25vw;
+      height: 50vh;
       background: url("./img/rock-paper-scissors.jpg") no-repeat center;
       background-size: contain;
       object-fit: cover;
     }
     &__talentTradeMobile {
-      height: 25vw;
+      height: 50vh;
       background: url("./img/talent-trade-mobile.png") no-repeat center;
       background-size: contain;
       object-fit: cover;
     }
     &__promedio {
-      height: 25vw;
+      height: 50vh;
       background: url("./img/promedio.png") no-repeat center;
       background-size: contain;
       object-fit: cover;
     }
     &__calculator {
-      height: 25vw;
+      height: 50vh;
       background: url("./img/calculator.png") no-repeat center;
       background-size: contain;
       object-fit: cover;
@@ -78,6 +79,14 @@
           height: 100%;
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionTwo {
+    &__title {
+      font-size: 1.4rem;
     }
   }
 }

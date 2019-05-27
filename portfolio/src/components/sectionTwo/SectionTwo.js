@@ -66,7 +66,7 @@ class SectionTwo extends Component {
               </MDBCol>
             </MDBRow>
             <MDBRow>
-              <MDBCol sm="4">
+              <MDBCol sm="4" className="mb-4">
                 <MDBView
                   hover
                   zoom
@@ -94,7 +94,7 @@ class SectionTwo extends Component {
                   conectarse, para aprender o enseñar habilidades (vista móvil)
                 </p>
               </MDBCol>
-              <MDBCol sm="4">
+              <MDBCol sm="4" className="mb-4">
                 <MDBView
                   hover
                   zoom
@@ -122,7 +122,7 @@ class SectionTwo extends Component {
                   permite consultar el promedio (solo front-end)
                 </p>
               </MDBCol>
-              <MDBCol sm="4">
+              <MDBCol sm="4" className="mb-4">
                 <MDBView
                   hover
                   zoom
