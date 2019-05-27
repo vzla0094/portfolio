@@ -26,11 +26,19 @@ class SectionTwo extends Component {
                       React, Sass, React-Router
                     </p>
                     <a
+                      href="https://talent-trade.netlify.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="sectionTwo__boxes__visitarSitio"
+                    >
+                      <h4>Visitar sitio</h4>
+                    </a>
+                    <a
                       href="https://github.com/chingu-voyages/v8-geckos-team-05"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <h2>Ver código</h2>
+                      <h5>Ver código</h5>
                     </a>
                   </MDBMask>
                 </MDBView>
@@ -54,11 +62,19 @@ class SectionTwo extends Component {
                       CSS, Javascript
                     </p>
                     <a
+                      href="https://vzla0094.github.io/rock_paper_scissors/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="sectionTwo__boxes__visitarSitio"
+                    >
+                      <h4>Visitar sitio</h4>
+                    </a>
+                    <a
                       href="https://github.com/vzla0094/rock_paper_scissors"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <h2>Ver código</h2>
+                      <h5>Ver código</h5>
                     </a>
                   </MDBMask>
                 </MDBView>
@@ -81,11 +97,19 @@ class SectionTwo extends Component {
                       CSS, Javascript
                     </p>
                     <a
+                      href="https://talent-trade.netlify.com/contacts"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="sectionTwo__boxes__visitarSitio"
+                    >
+                      <h4>Visitar sitio</h4>
+                    </a>
+                    <a
                       href="https://github.com/chingu-voyages/v8-geckos-team-05"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <h2>Ver código</h2>
+                      <h5>Ver código</h5>
                     </a>
                   </MDBMask>
                 </MDBView>
@@ -101,7 +125,7 @@ class SectionTwo extends Component {
                   className="sectionTwo__boxes__promedio z-depth-1-half mb-2"
                 >
                   <MDBMask
-                    overlay="black-light"
+                    overlay="white-slight"
                     className="flex-center flex-column"
                   >
                     <p className="sectionTwo__boxes__maskText">
@@ -109,11 +133,19 @@ class SectionTwo extends Component {
                       CSS, Javascript
                     </p>
                     <a
+                      href="https://vzla0094.github.io/Promedio-alumnos/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="sectionTwo__boxes__visitarSitio"
+                    >
+                      <h4>Visitar sitio</h4>
+                    </a>
+                    <a
                       href="https://github.com/vzla0094/Promedio-alumnos"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <h2>Ver código</h2>
+                      <h5>Ver código</h5>
                     </a>
                   </MDBMask>
                 </MDBView>
@@ -129,7 +161,7 @@ class SectionTwo extends Component {
                   className="sectionTwo__boxes__calculator z-depth-1-half mb-2"
                 >
                   <MDBMask
-                    overlay="black-light"
+                    overlay="white-slight"
                     className="flex-center flex-column"
                   >
                     <p className="sectionTwo__boxes__maskText">
@@ -140,8 +172,16 @@ class SectionTwo extends Component {
                       href="https://github.com/vzla0094/calculator"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="sectionTwo__boxes__visitarSitio"
                     >
-                      <h2>Ver código</h2>
+                      <h4>Visitar sitio</h4>
+                    </a>
+                    <a
+                      href="https://github.com/vzla0094/calculator"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h5>Ver código</h5>
                     </a>
                   </MDBMask>
                 </MDBView>

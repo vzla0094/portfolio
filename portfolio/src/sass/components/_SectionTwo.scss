@@ -48,6 +48,12 @@
       font-weight: 500;
       margin-bottom: 20px !important;
     }
+    &__visitarSitio {
+      color: rgb(100, 226, 16);
+      &:hover {
+        color: green;
+      }
+    }
     &__normal {
       margin-top: 2%;
       display: grid;

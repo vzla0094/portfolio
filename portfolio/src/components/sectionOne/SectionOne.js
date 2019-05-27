@@ -22,7 +22,7 @@ class SectionOne extends Component {
             <MDBCol md="9" sm="12">
               <h2 className="sectionOne__presentation__text">
                 Soy Eliezer, desarrollador web. He trabajado con HTML, CSS,
-                Javascript, React, y Sass.
+                Bootstrap, Javascript, React, y Sass.
                 <br /> ¡Construyamos algo!
               </h2>
             </MDBCol>

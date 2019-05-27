@@ -155,6 +155,10 @@
       text-align: center;
       font-weight: 500;
       margin-bottom: 20px !important; }
+    .sectionTwo__boxes__visitarSitio {
+      color: #64e210; }
+      .sectionTwo__boxes__visitarSitio:hover {
+        color: green; }
     .sectionTwo__boxes__normal {
       margin-top: 2%;
       display: grid;
