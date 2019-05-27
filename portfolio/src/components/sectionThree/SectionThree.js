@@ -26,9 +26,11 @@ class SectionThree extends Component {
             </p>
           </div>
         </div>
-        <a className="sectionThree__arrow" href="#sectionFour">
-          <img src={arrow} width="50" height="50" alt="arrow" />
-        </a>
+        <div className="sectionThree__arrow flex-center">
+          <a href="#sectionFour">
+            <img src={arrow} width="50" height="50" alt="arrow" />
+          </a>
+        </div>
       </div>
     );
   }

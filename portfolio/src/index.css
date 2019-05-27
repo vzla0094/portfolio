@@ -81,7 +81,7 @@
 
 .sectionOne {
   padding: 10vw;
-  height: 90vh; }
+  min-height: 90vh; }
   .sectionOne__title {
     font-size: 72px;
     text-align: center;
@@ -186,12 +186,8 @@
 
 .sectionThree {
   margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 0 10%;
-  height: 100vh; }
+  min-height: 100vh; }
   .sectionThree__acercaDeMi__title {
     font-family: "Raleway", sans-serif;
     color: #434543;
@@ -206,8 +202,9 @@
     border-radius: 5px;
     padding: 20px;
     text-align: justify; }
+  .sectionThree__arrow.flex-center {
+    height: unset; }
   .sectionThree__arrow {
-    margin-bottom: -10%;
     margin-top: 10%; }
 
 .sectionFour {
