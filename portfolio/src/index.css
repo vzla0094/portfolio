@@ -16,7 +16,10 @@
 
 .navbar__links {
   margin-right: 0.75rem;
-  margin-left: 0.75rem; }
+  margin-left: 0.75rem;
+  color: #0275d8 !important; }
+  .navbar__links:hover {
+    color: #0056b3 !important; }
 
 @media only screen and (min-width: 768px) {
   #nav-icon1 {
@@ -132,24 +135,6 @@
       grid-template-columns: repeat(3, 1fr);
       grid-auto-rows: 400px;
       grid-column-gap: 2%; }
-      .sectionTwo__boxes__normal__one {
-        background: url("./img/talent-trade-mobile.png") no-repeat center;
-        background-size: 100%; }
-        .sectionTwo__boxes__normal__one a {
-          display: block;
-          height: 100%; }
-      .sectionTwo__boxes__normal__two {
-        background: url("./img/promedio.png") no-repeat center;
-        background-size: 80%; }
-        .sectionTwo__boxes__normal__two a {
-          display: block;
-          height: 100%; }
-      .sectionTwo__boxes__normal__three {
-        background: url("./img/calculator.png") no-repeat center;
-        background-size: 95%; }
-        .sectionTwo__boxes__normal__three a {
-          display: block;
-          height: 100%; }
   .sectionTwo__arrow {
     margin-top: 3rem; }
 
