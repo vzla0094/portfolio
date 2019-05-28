@@ -7,6 +7,7 @@ import {
   MDBNavbarToggler,
   MDBCollapse
 } from "mdbreact";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavbarPage extends Component {
   state = {
@@ -35,19 +36,37 @@ class NavbarPage extends Component {
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav right>
               <MDBNavItem active>
-                <a className="navbar__links" href="#sectionOne">
+                <Link
+                  className="navbar__links"
+                  to="sectionOne"
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                   Inicio
-                </a>
+                </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <a className="navbar__links" href="#sectionTwo">
+                <Link
+                  className="navbar__links"
+                  to="sectionTwo"
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                   Portafolio
-                </a>
+                </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <a className="navbar__links" href="#sectionThree">
+                <Link
+                  className="navbar__links"
+                  to="sectionThree"
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                   Acerca de mi
-                </a>
+                </Link>
               </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>

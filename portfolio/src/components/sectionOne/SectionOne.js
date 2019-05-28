@@ -3,6 +3,7 @@ import pic from "./pic.jpg";
 import arrow from "../../img/scroll.png";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import { MDBAnimation } from "mdbreact";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class SectionOne extends Component {
   state = {};
@@ -31,11 +32,17 @@ class SectionOne extends Component {
           </MDBRow>
         </MDBContainer>
         <div className="sectionOne__arrow flex-center">
-          <a href="#sectionTwo">
+          <Link
+            className="navbar__links"
+            to="sectionTwo"
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             <MDBAnimation type="slideInDown" infinite duration="2s" delay="1s">
               <img src={arrow} width="30" height="30" alt="arrow" />
             </MDBAnimation>
-          </a>
+          </Link>
         </div>
       </div>
     );

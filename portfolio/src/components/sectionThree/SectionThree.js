@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import arrow from "../../img/scroll.png";
 import { MDBAnimation } from "mdbreact";
+import { Link, animateScroll as scroll } from "react-scroll";
 class SectionThree extends Component {
   state = {};
   render() {
@@ -15,24 +16,30 @@ class SectionThree extends Component {
               servicio posible en soluciones web. <br />
               <br />
               Me gusta tener siempre nuevos retos que solucionar, y tener la
-              oportunidad de aprender cosas nuevas todo el tiempo, estas fueron
-              algunas de las razones por las que decidí convertirme en
-              desarrollador. A la hora de trabajar, me gusta mucho ponerle
-              atención especial a los detalles y hacer todo de la manera más
-              metódica y organizada posible.
+              oportunidad de aprender cosas nuevas, estas fueron algunas de las
+              razones por las que decidí convertirme en desarrollador. A la hora
+              de trabajar, me gusta mucho ponerle atención especial a los
+              detalles y hacer todo de la manera más metódica y organizada
+              posible.
               <br />
               <br /> Me da mucho gusto que haya tenido la oportunidad de revisar
               mis proyectos, si desea saber más acerca de ellos, o le gustaría
-              trabajar conmigo, no dude en contactarme!!
+              contratarme, no dude en contactarme!!
             </p>
           </div>
         </div>
         <div className="sectionThree__arrow flex-center">
-          <a href="#sectionFour">
+          <Link
+            className="navbar__links"
+            to="sectionFour"
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             <MDBAnimation type="slideInDown" infinite duration="2s" delay="1s">
               <img src={arrow} width="30" height="30" alt="arrow" />
             </MDBAnimation>
-          </a>
+          </Link>
         </div>
       </div>
     );

@@ -23,7 +23,7 @@ class SectionFour extends Component {
             <img src={github} width="70" height="70" alt="github-logo" />
           </a>
         </div>
-        <p className="sectionFour__text">6311054619</p>
+        <p className="sectionFour__text">+52 6311054619</p>
       </div>
     );
   }
