@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import pic from "./pic.jpg";
 import arrow from "../../img/scroll.png";
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBAnimation } from "mdbreact";
+
 class SectionOne extends Component {
   state = {};
   render() {
@@ -10,27 +12,29 @@ class SectionOne extends Component {
         <h1 className="sectionOne__title">Hola!</h1>
         <MDBContainer>
           <MDBRow>
-            <MDBCol md="3" sm="12" className="flex-center">
+            <MDBCol lg="3" md="12" className="flex-center">
               <img
                 src={pic}
-                height="150"
-                width="150"
                 className="sectionOne__presentation__img"
                 alt="Eliezer Valenzuela"
               />
             </MDBCol>
-            <MDBCol md="9" sm="12">
+            <MDBCol lg="9" md="12">
               <h2 className="sectionOne__presentation__text">
                 Soy Eliezer, desarrollador web. He trabajado con HTML, CSS,
                 Bootstrap, Javascript, React, y Sass.
+                <br />
                 <br /> ¡Construyamos algo!
               </h2>
+              <hr className="navBorder" />
             </MDBCol>
           </MDBRow>
         </MDBContainer>
         <div className="sectionOne__arrow flex-center">
           <a href="#sectionTwo">
-            <img src={arrow} width="50" height="50" alt="arrow" />
+            <MDBAnimation type="slideInDown" infinite duration="2s" delay="1s">
+              <img src={arrow} width="30" height="30" alt="arrow" />
+            </MDBAnimation>
           </a>
         </div>
       </div>

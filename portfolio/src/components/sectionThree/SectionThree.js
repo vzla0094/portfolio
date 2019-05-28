@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import arrow from "../../img/scroll.png";
+import { MDBAnimation } from "mdbreact";
 class SectionThree extends Component {
   state = {};
   render() {
@@ -28,7 +29,9 @@ class SectionThree extends Component {
         </div>
         <div className="sectionThree__arrow flex-center">
           <a href="#sectionFour">
-            <img src={arrow} width="50" height="50" alt="arrow" />
+            <MDBAnimation type="slideInDown" infinite duration="2s" delay="1s">
+              <img src={arrow} width="30" height="30" alt="arrow" />
+            </MDBAnimation>
           </a>
         </div>
       </div>

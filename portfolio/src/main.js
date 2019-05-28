@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./components/navbar/Navbar";
+import { NavbarPage } from "./components/navbar/Navbar";
 import SectionOne from "./components/sectionOne/SectionOne";
 import SectionTwo from "./components/sectionTwo/SectionTwo";
 import SectionThree from "./components/sectionThree/SectionThree";
@@ -9,7 +9,7 @@ class Main extends Component {
   render() {
     return (
       <div className="mainContainer">
-        <Navbar />
+        <NavbarPage />
         <SectionOne />
         <SectionTwo />
         <SectionThree />

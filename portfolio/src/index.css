@@ -4,69 +4,53 @@
   padding: 0;
   box-sizing: border-box; }
 
-.navigationBar {
-  height: 64px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem; }
-  .navigationBar__logo__link {
-    text-decoration: unset;
-    color: #434543;
+.navbar__navbarBrand {
+  color: #434543 !important;
+  font-family: "Raleway", sans-serif;
+  line-height: normal; }
+  .navbar__navbarBrand__name {
+    font-size: 18px;
+    font-weight: 500; }
+  .navbar__navbarBrand__profession {
+    font-size: 13px; }
+
+.navbar__links {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem; }
+
+@media only screen and (min-width: 768px) {
+  #nav-icon1 {
+    display: none; } }
+
+.sectionOne {
+  margin-top: 62px;
+  padding: 10vw;
+  min-height: 90vh; }
+  .sectionOne__title {
+    font-size: 72px;
+    text-align: center;
     font-family: "Raleway", sans-serif;
-    line-height: normal; }
-    .navigationBar__logo__link__name {
-      font-size: 18px;
-      font-weight: 500; }
-    .navigationBar__logo__link__profession {
-      font-size: 13px; }
-  .navigationBar__collapse--items {
-    display: inline; }
-
-.listedItems {
-  margin: 0;
-  display: inline; }
-  .listedItems__item {
-    display: inline; }
-    .listedItems__item__btnCollapse {
-      all: unset;
-      display: none;
-      font-size: 1.5rem;
-      color: black;
-      margin-right: 1rem; }
-    .listedItems__item__link {
-      margin-left: 1rem;
-      margin-right: 1rem;
-      color: unset;
-      text-decoration: unset;
+    color: #007bff;
+    font-weight: 400;
+    margin-bottom: 2rem; }
+  .sectionOne__presentation {
+    max-width: 650px;
+    display: flex; }
+    .sectionOne__presentation__img {
+      min-width: 150px;
+      margin: 0 auto;
+      height: 150px;
+      width: 150px; }
+    .sectionOne__presentation__text {
+      align-self: center;
+      margin-left: 10px;
       font-family: "Raleway", sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: normal;
-      color: black; }
-
-@media only screen and (max-width: 768px) {
-  .navBar--responsive {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 10%;
-    padding-right: 10%;
+      color: #434543;
+      font-weight: 400; }
+  .sectionOne__arrow {
+    margin-top: 10%; }
+  .sectionOne__arrow.flex-center {
     height: unset; }
-  .listedItems__item__btnCollapse {
-    display: inline;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
-  .listedItems__item__link {
-    display: none; }
-    .listedItems__item__link--responsive {
-      display: block;
-      margin: 0;
-      margin-bottom: 1rem; }
-  .listedItems--responsive {
-    display: flex;
-    flex-direction: column; } }
 
 .navBorder {
   border: 0;
@@ -79,34 +63,19 @@
   background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%); }
 
-.sectionOne {
-  padding: 10vw;
-  min-height: 90vh; }
+@media only screen and (max-width: 992px) {
   .sectionOne__title {
-    font-size: 72px;
+    margin-bottom: 0; }
+  .sectionOne__presentation__text {
+    margin-top: 1rem;
     text-align: center;
-    font-family: "Raleway", sans-serif;
-    color: #434543;
-    font-weight: 400;
-    margin-bottom: 2rem; }
-  .sectionOne__presentation {
-    max-width: 650px;
-    display: flex; }
-    .sectionOne__presentation__img {
-      min-width: 150px;
-      margin: 0 auto; }
-    .sectionOne__presentation__text {
-      align-self: center;
-      margin-left: 10px;
-      font-family: "Raleway", sans-serif;
-      color: #434543;
-      font-weight: 400; }
-  .sectionOne__arrow {
-    margin-top: 10%; }
-  .sectionOne__arrow.flex-center {
-    height: unset; }
+    font-size: 1.6rem; } }
 
 @media only screen and (max-width: 768px) {
+  .sectionOne__presentation__img {
+    min-width: 100px;
+    height: 100px;
+    width: 100px; }
   .sectionOne__presentation__text {
     margin-top: 1rem;
     text-align: center;
@@ -183,6 +152,8 @@
         .sectionTwo__boxes__normal__three a {
           display: block;
           height: 100%; }
+  .sectionTwo__arrow {
+    margin-top: 3rem; }
 
 @media only screen and (max-width: 768px) {
   .sectionTwo__title {
@@ -190,7 +161,7 @@
 
 .sectionThree {
   margin-top: 70px;
-  padding: 0 10%;
+  padding: 10%;
   min-height: 100vh; }
   .sectionThree__acercaDeMi__title {
     font-family: "Raleway", sans-serif;

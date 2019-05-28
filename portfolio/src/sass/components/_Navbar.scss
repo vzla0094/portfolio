@@ -1,135 +1,25 @@
-.navigationBar {
-  height: 64px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-  &__logo {
-    &__link {
-      text-decoration: unset;
-      color: $color-text;
-      font-family: $font-main;
-      line-height: normal;
-      &__name {
-        font-size: 18px;
-        font-weight: 500;
-      }
-      &__profession {
-        font-size: 13px;
-      }
+.navbar {
+  // box-shadow: none;
+  &__navbarBrand {
+    color: $color-text !important;
+    font-family: $font-main;
+    line-height: normal;
+    &__name {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    &__profession {
+      font-size: 13px;
     }
   }
-  &__collapse--items {
-    display: inline;
+  &__links {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
   }
 }
 
-.listedItems {
-  margin: 0;
-  display: inline;
-  &__item {
-    display: inline;
-    &__btnCollapse {
-      all: unset;
-      display: none;
-      font-size: 1.5rem;
-      color: black;
-      margin-right: 1rem;
-    }
-    &__link {
-      margin-left: 1rem;
-      margin-right: 1rem;
-      color: unset;
-      text-decoration: unset;
-      font-family: $font-main;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: normal;
-      color: black;
-    }
+@media only screen and (min-width: 768px) {
+  #nav-icon1 {
+    display: none;
   }
-  // &__item-btn {
-  //   display: inline;
-  // }
-}
-
-@media only screen and (max-width: 768px) {
-  .navBar {
-    &--responsive {
-      flex-direction: column;
-      align-items: flex-start;
-      padding-left: 10%; //same as mainContainer
-      padding-right: 10%; //same as mainContainer
-      height: unset;
-    }
-  }
-
-  .listedItems {
-    &__item {
-      &__btnCollapse {
-        display: inline;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-      }
-      &__link {
-        display: none;
-        &--responsive {
-          display: block;
-          margin: 0;
-          margin-bottom: 1rem;
-        }
-      }
-    }
-    &--responsive {
-      display: flex;
-      flex-direction: column;
-      // align-items: center;
-    }
-  }
-}
-
-.navBorder {
-  border: 0;
-  height: 1px;
-  background: #333;
-  background: linear-gradient(
-    left,
-    hsla(0, 0%, 0%, 0) 0%,
-    hsla(0, 0%, 0%, 0.75) 50%,
-    hsla(0, 0%, 0%, 0) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(0%, hsla(0, 0%, 0%, 0)),
-    color-stop(50%, hsla(0, 0%, 0%, 0.75)),
-    color-stop(100%, hsla(0, 0%, 0%, 0))
-  );
-  background: -moz-linear-gradient(
-    left,
-    hsla(0, 0%, 0%, 0) 0%,
-    hsla(0, 0%, 0%, 0.75) 50%,
-    hsla(0, 0%, 0%, 0) 100%
-  );
-  background: -ms-linear-gradient(
-    left,
-    hsla(0, 0%, 0%, 0) 0%,
-    hsla(0, 0%, 0%, 0.75) 50%,
-    hsla(0, 0%, 0%, 0) 100%
-  );
-  background: -o-linear-gradient(
-    left,
-    hsla(0, 0%, 0%, 0) 0%,
-    hsla(0, 0%, 0%, 0.75) 50%,
-    hsla(0, 0%, 0%, 0) 100%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    hsla(0, 0%, 0%, 0) 0%,
-    hsla(0, 0%, 0%, 0.75) 50%,
-    hsla(0, 0%, 0%, 0) 100%
-  );
 }

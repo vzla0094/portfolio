@@ -1,11 +1,12 @@
 .sectionOne {
+  margin-top: 62px;
   padding: 10vw;
   min-height: 90vh;
   &__title {
     font-size: 72px;
     text-align: center;
     font-family: $font-main;
-    color: $color-text;
+    color: #007bff;
     font-weight: 400;
     margin-bottom: 2rem;
   }
@@ -15,6 +16,8 @@
     &__img {
       min-width: 150px;
       margin: 0 auto;
+      height: 150px;
+      width: 150px;
     }
     &__text {
       align-self: center;
@@ -32,10 +35,74 @@
     height: unset; //override mdboostrap 100% height -.-
   }
 }
+.navBorder {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background: linear-gradient(
+    left,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(0, 0%, 0%, 0.75) 50%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, hsla(0, 0%, 0%, 0)),
+    color-stop(50%, hsla(0, 0%, 0%, 0.75)),
+    color-stop(100%, hsla(0, 0%, 0%, 0))
+  );
+  background: -moz-linear-gradient(
+    left,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(0, 0%, 0%, 0.75) 50%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(0, 0%, 0%, 0.75) 50%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(0, 0%, 0%, 0.75) 50%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(0, 0%, 0%, 0.75) 50%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+}
+
+@media only screen and (max-width: 992px) {
+  .sectionOne {
+    // padding: 3vw 10vw 10vw 10vw;
+    &__title {
+      margin-bottom: 0;
+    }
+    &__presentation {
+      &__text {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .sectionOne {
     &__presentation {
+      &__img {
+        min-width: 100px;
+        height: 100px;
+        width: 100px;
+      }
       &__text {
         margin-top: 1rem;
         text-align: center;

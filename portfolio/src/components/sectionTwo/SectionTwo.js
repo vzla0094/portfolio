@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import arrow from "../../img/scroll.png";
 import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBAnimation } from "mdbreact";
 class SectionTwo extends Component {
   state = {};
   render() {
@@ -189,6 +191,13 @@ class SectionTwo extends Component {
               </MDBCol>
             </MDBRow>
           </MDBContainer>
+        </div>
+        <div className="sectionTwo__arrow flex-center">
+          <a href="#sectionThree">
+            <MDBAnimation type="slideInDown" infinite duration="2s" delay="1s">
+              <img src={arrow} width="30" height="30" alt="arrow" />
+            </MDBAnimation>
+          </a>
         </div>
       </div>
     );
