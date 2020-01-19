@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import { NavbarPage } from "./components/navbar/Navbar";
-import SectionOne from "./components/sectionOne/SectionOne";
-import SectionTwo from "./components/sectionTwo/SectionTwo";
-import SectionThree from "./components/sectionThree/SectionThree";
-import SectionFour from "./components/sectionFour/SectionFour";
+import Presentation from "./components/sectionOne/Presentation";
+import Projects from "./components/sectionTwo/Projects";
+import AboutMe from "./components/sectionThree/AboutMe";
+import Contact from "./components/sectionFour/Contact";
 class Main extends Component {
   state = {};
   render() {
     return (
       <div className="mainContainer">
         <NavbarPage />
-        <SectionOne />
-        <SectionTwo />
-        <SectionThree />
-        <SectionFour />
+        <Presentation />
+        <Projects />
+        <AboutMe />
+        <Contact />
       </div>
     );
   }

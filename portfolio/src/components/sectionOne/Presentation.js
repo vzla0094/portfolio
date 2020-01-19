@@ -5,7 +5,7 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import { MDBAnimation } from "mdbreact";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-class SectionOne extends Component {
+class Presentation extends Component {
   state = {};
   render() {
     return (
@@ -49,4 +49,4 @@ class SectionOne extends Component {
   }
 }
 
-export default SectionOne;
+export default Presentation;

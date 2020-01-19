@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import arrow from "../../img/scroll.png";
 import { MDBAnimation } from "mdbreact";
 import { Link, animateScroll as scroll } from "react-scroll";
-class SectionThree extends Component {
+class AboutMe extends Component {
   state = {};
   render() {
     return (
@@ -46,4 +46,4 @@ class SectionThree extends Component {
   }
 }
 
-export default SectionThree;
+export default AboutMe;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import linkedin from "../../img/linkedin.png";
 import github from "../../img/github.png";
-class SectionFour extends Component {
+class Contact extends Component {
   state = {};
   render() {
     return (
@@ -29,4 +29,4 @@ class SectionFour extends Component {
   }
 }
 
-export default SectionFour;
+export default Contact;

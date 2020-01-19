@@ -3,7 +3,7 @@ import arrow from "../../img/scroll.png";
 import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import { MDBAnimation } from "mdbreact";
 import { Link, animateScroll as scroll } from "react-scroll";
-class SectionTwo extends Component {
+class Projects extends Component {
   state = {};
   render() {
     return (
@@ -211,4 +211,4 @@ class SectionTwo extends Component {
   }
 }
 
-export default SectionTwo;
+export default Projects;
