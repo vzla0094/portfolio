@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fb698c4d.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c3aea5d9.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c3aea5d9.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.a28317b1.chunk.css",
+    "main.js": "/Portfolio/static/js/main.351c7096.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.351c7096.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/css/2.15c35781.chunk.css": "/Portfolio/static/css/2.15c35781.chunk.css",
-    "static/js/2.92c6c93e.chunk.js": "/Portfolio/static/js/2.92c6c93e.chunk.js",
-    "static/js/2.92c6c93e.chunk.js.map": "/Portfolio/static/js/2.92c6c93e.chunk.js.map",
+    "static/css/2.442c3c11.chunk.css": "/Portfolio/static/css/2.442c3c11.chunk.css",
+    "static/js/2.5e75fe26.chunk.js": "/Portfolio/static/js/2.5e75fe26.chunk.js",
+    "static/js/2.5e75fe26.chunk.js.map": "/Portfolio/static/js/2.5e75fe26.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.be3650f9eafc8655382b6cd15fc2bd2c.js": "/Portfolio/precache-manifest.be3650f9eafc8655382b6cd15fc2bd2c.js",
+    "precache-manifest.142ce99837dc0e0a7aaab6ea0e89fe44.js": "/Portfolio/precache-manifest.142ce99837dc0e0a7aaab6ea0e89fe44.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.15c35781.chunk.css.map": "/Portfolio/static/css/2.15c35781.chunk.css.map",
-    "static/css/main.fb698c4d.chunk.css.map": "/Portfolio/static/css/main.fb698c4d.chunk.css.map",
-    "static/media/mdb.scss": "/Portfolio/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/all.min.css": "/Portfolio/static/media/fa-solid-900.f14c3b2f.ttf",
-    "static/media/pic.jpg": "/Portfolio/static/media/pic.99b20e34.jpg",
-    "static/media/index.css": "/Portfolio/static/media/talent-trade.ef125361.jpg"
+    "static/css/2.442c3c11.chunk.css.map": "/Portfolio/static/css/2.442c3c11.chunk.css.map",
+    "static/css/main.a28317b1.chunk.css.map": "/Portfolio/static/css/main.a28317b1.chunk.css.map",
+    "static/media/mdb.scss": "/Portfolio/static/media/arrow_right.d9ccc77c.svg",
+    "static/media/index.css": "/Portfolio/static/media/talent-trade.ef125361.jpg",
+    "static/media/all.min.css": "/Portfolio/static/media/fa-solid-900.f6121be5.woff2",
+    "static/media/pic.jpg": "/Portfolio/static/media/pic.99b20e34.jpg"
   }
 }
