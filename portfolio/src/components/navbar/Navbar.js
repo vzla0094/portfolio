@@ -7,7 +7,7 @@ import {
   MDBNavbarToggler,
   MDBCollapse
 } from "mdbreact";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class NavbarPage extends Component {
   state = {

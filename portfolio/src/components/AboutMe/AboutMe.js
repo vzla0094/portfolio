@@ -1,33 +1,37 @@
 import React, { Component } from "react";
 import arrow from "../../img/scroll.png";
-import { MDBAnimation } from "mdbreact";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { MDBAnimation, MDBContainer } from "mdbreact";
+import { Link } from "react-scroll";
 class AboutMe extends Component {
   state = {};
   render() {
     return (
       <div className="sectionThree" id="sectionThree">
-        <div className="sectionThree__acercaDeMi">
+        <MDBContainer className="sectionThree__acercaDeMi">
           <h2 className="sectionThree__acercaDeMi__title">Acerca de mi:</h2>
           <div className="sectionThree__acercaDeMi__box">
             <p>
-              En 2017 me propuse cambiar mi carrera a desarrollo web, y hasta la
-              fecha he estado estudiando y trabajando duro para ofrecer el mejor
-              servicio posible en soluciones web. <br />
+              Hola, soy Desarrollador Web autodidacta con poco más de un año de
+              experiencia en proyectos propios. Mi anterior experiencia es en la
+              industria de manufactura donde trabajé como Técnico e Ingeniero
+              Jr. En el área de Calidad. <br />
               <br />
-              Me gusta tener siempre nuevos retos que solucionar, y tener la
-              oportunidad de aprender cosas nuevas, estas fueron algunas de las
-              razones por las que decidí convertirme en desarrollador. A la hora
-              de trabajar, me gusta mucho ponerle atención especial a los
-              detalles y hacer todo de la manera más metódica y organizada
-              posible.
+              He decidido cambiar de profesión porque me gusta mucho la
+              programación y es hacia donde quiero impulsar mi carrera. Hoy en
+              día programo en mis ratos libres mientras trabajo en un pequeño
+              negocio familiar y busco la oportunidad de trabajar como
+              desarrollador jr.
               <br />
-              <br /> Me da mucho gusto que haya tenido la oportunidad de revisar
-              mis proyectos, si desea saber más acerca de ellos, o le gustaría
-              contratarme, no dude en contactarme!!
+              <br /> Me alegra que haya revisado mis proyectos, si desea saber
+              más acerca de ellos o le gustaría trabajar conmigo estoy a sus
+              órdenes. Mi teléfono es 6311054619 y mi correo vzla0094@gmail.com.
+              También agradezco con todo gusto cualquier retroalimentación
+              acerca del sitio y los proyectos. <br />
+              <br />
+              Eliezer Valenzuela.
             </p>
           </div>
-        </div>
+        </MDBContainer>
         <div className="sectionThree__arrow flex-center">
           <Link
             className="navbar__links"

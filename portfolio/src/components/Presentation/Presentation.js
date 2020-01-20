@@ -3,7 +3,7 @@ import pic from "./pic.jpg";
 import arrow from "../../img/scroll.png";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import { MDBAnimation } from "mdbreact";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class Presentation extends Component {
   state = {};

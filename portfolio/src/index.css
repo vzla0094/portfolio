@@ -95,6 +95,11 @@
     padding: 0 10vw; }
   .sectionTwo__boxes {
     margin-top: 70px; }
+    .sectionTwo__boxes__ecommerce {
+      height: 50vh;
+      background: url("./img/ecommerce.png") no-repeat center;
+      background-size: contain;
+      object-fit: cover; }
     .sectionTwo__boxes__talentTrade {
       height: 50vh;
       background: url("./img/talent-trade.jpg") no-repeat center;
@@ -143,9 +148,7 @@
     font-size: 1.4rem; } }
 
 .sectionThree {
-  margin-top: 70px;
-  padding: 10%;
-  min-height: 100vh; }
+  margin-top: 70px; }
   .sectionThree__acercaDeMi__title {
     font-family: "Raleway", sans-serif;
     color: #434543;

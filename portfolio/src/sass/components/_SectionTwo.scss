@@ -12,6 +12,12 @@
   }
   &__boxes {
     margin-top: 70px;
+    &__ecommerce {
+      height: 50vh;
+      background: url("./img/ecommerce.png") no-repeat center;
+      background-size: contain;
+      object-fit: cover;
+    }
     &__talentTrade {
       height: 50vh;
       background: url("./img/talent-trade.jpg") no-repeat center;
